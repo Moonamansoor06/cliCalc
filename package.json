@@ -1,0 +1,40 @@
+{
+  "name": "calculator-cli",
+  "version": "1.0.0",
+  "description": "cli calculator",
+  "main": "bin/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "cliCalc": "bin/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chalk": "^2.2.0",
+    "chalk": "^4.1.2",
+    "clear": "^0.1.0",
+    "colors": "^1.4.0",
+    "figlet": "^1.5.2",
+    "git": "^0.1.5",
+    "readline-sync": "^1.4.10",
+    "tslib": "^2.4.1"
+  },
+  "devDependencies": {
+    "@liftr/tscov": "^2.0.0",
+    "@types/clear": "^0.1.2",
+    "@types/figlet": "^1.5.5",
+    "@types/node": "^18.11.9",
+    "@types/readline-sync": "^1.4.4",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typedoc": "^0.23.21",
+    "typescript": "^4.9.3"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": []
+}
